@@ -14,6 +14,7 @@ public class Testshashi extends Baseclass {
     public void  LoginTest()
     {
         System.out.println("Updated by Shashi");
+         System.out.println("Updated from github");
        WebElement ele= driver.findElement(By.xpath("//p[.='PracticeAutomationHere']"));
        Assert.assertEquals(ele.isDisplayed(),true);
         driver.findElement(By.xpath("(//a[text()=' Selenium143 '])[1]")).click();
